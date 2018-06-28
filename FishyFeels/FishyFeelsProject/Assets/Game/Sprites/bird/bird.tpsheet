@@ -1,0 +1,20 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:10efa76d12dcee3eceb8bbafcb03ba49:fc48d477450a6b70aa08687196f5207b:18fcec7e2514251494a014ee3346fae9$
+#
+:format=40300
+:texture=bird.png
+:size=928x1536
+:pivotpoints=enabled
+:borders=disabled
+
+pel00;0;1024;463;512; 0.5;0.5; 0;0;0;0
+pel01;463;1024;463;512; 0.5;0.5; 0;0;0;0
+pel02;0;512;463;512; 0.5;0.5; 0;0;0;0
+pel03;463;512;463;512; 0.5;0.5; 0;0;0;0
+pel04;0;0;463;512; 0.5;0.5; 0;0;0;0
+pel05;0;512;463;512; 0.5;0.5; 0;0;0;0

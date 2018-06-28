@@ -1,0 +1,269 @@
+fileFormatVersion: 2
+guid: 9dcac55a7d447dd459e7de946c6a10b4
+timeCreated: 1520534382
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: falling_0
+    21300002: falling_1
+    21300004: falling_2
+    21300006: falling_3
+    21300008: falling_4
+    21300010: falling_5
+    21300012: falling_6
+    21300014: falling_7
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: falling_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3346
+        width: 520
+        height: 478
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -153.09273, y: -210.08154}
+        - {x: -153.09273, y: 143.77588}
+        - {x: 208.40192, y: 143.77588}
+        - {x: 208.40192, y: -210.08154}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: falling_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2868
+        width: 520
+        height: 478
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -155.63846, y: -213.22583}
+        - {x: -155.63846, y: 146.9961}
+        - {x: 202.03757, y: 146.9961}
+        - {x: 202.03757, y: -213.22583}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: falling_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2390
+        width: 520
+        height: 478
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -175.58075, y: -208.98682}
+        - {x: -176, y: 152}
+        - {x: 209, y: 152}
+        - {x: 208.96426, y: -208.98682}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: falling_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1912
+        width: 520
+        height: 478
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -163, y: -215}
+        - {x: -163, y: 147}
+        - {x: 206, y: 147}
+        - {x: 206, y: -215}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: falling_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1434
+        width: 520
+        height: 478
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -139, y: -220}
+        - {x: -139, y: 145}
+        - {x: 210, y: 145}
+        - {x: 210, y: -220}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: falling_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 956
+        width: 520
+        height: 478
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -137, y: -217}
+        - {x: -137, y: 150}
+        - {x: 210, y: 150}
+        - {x: 210, y: -217}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: falling_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 478
+        width: 520
+        height: 478
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -142, y: -222}
+        - {x: -142, y: 145}
+        - {x: 215, y: 145}
+        - {x: 215, y: -222}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: falling_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 520
+        height: 478
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -147, y: -212}
+        - {x: -147, y: 148}
+        - {x: 210, y: 148}
+        - {x: 210, y: -212}
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
