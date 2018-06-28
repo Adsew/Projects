@@ -1,0 +1,7 @@
+<GameObject name="Bomb">
+    <Components>
+        <Component type="Transform" position.x="0" position.y="0" rotation="0" scale.x="1" scale.y="1" />
+        <Component type="Sprite" Asset="FireSet" priority="3" width="32" height="32" xOrigin="224" yOrigin="160" />
+		<Component type="BombFire" burnout="0.7f" />
+    </Components>
+</GameObject>

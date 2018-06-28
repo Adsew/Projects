@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<Assets>
+    <PlayerSprite type="TextureAsset" path="res/Textures/playersprite.png" />
+    <EnemySprite type="TextureAsset" path="res/Textures/enemysprite.png" />
+    <BombSprite type="TextureAsset" path="res/Textures/bombsprite.png" />
+    <TileSet type="TextureAsset" path="res/Textures/tileset.png" />
+	<FireSet type="TextureAsset" path="res/Textures/bombparty.png" />
+	<TitleBackground type="TextureAsset" path="res/Textures/titlescreen.png" />
+    <ButtonTexture type="TextureAsset" path="res/Textures/button.png" />
+    <GreyBackdrop type="TextureAsset" path="res/Textures/greybackdrop.png" />
+</Assets>

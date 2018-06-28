@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="tinyxml2.cpp">
+      <Filter>Source\System\Support</Filter>
+    </ClCompile>
+    <ClCompile Include="IRenderable.cpp">
+      <Filter>Source\System\Support</Filter>
+    </ClCompile>
+    <ClCompile Include="Asset.cpp">
+      <Filter>Source\System\Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureAsset.cpp">
+      <Filter>Source\System\Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine.cpp">
+      <Filter>Source\System\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Source\System\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="FileSystem.cpp">
+      <Filter>Source\System\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="AssetManager.cpp">
+      <Filter>Source\System\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectManager.cpp">
+      <Filter>Source\System\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Source\System\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderSystem.cpp">
+      <Filter>Source\System\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Source\System\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="ComponentManager.cpp">
+      <Filter>Source\System\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Source\Game\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Source\Game\Object\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Source\Game\Object\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimatedSprite.cpp">
+      <Filter>Source\Game\Object\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>Source\Game\Object\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Source\Game\Object\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Source\Game\Object\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="UITexture.cpp">
+      <Filter>Source\Game\Object\Component\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UIButton.cpp">
+      <Filter>Source\Game\Object\Component\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UIElement.cpp">
+      <Filter>Source\Game\Object\Component\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UIText.cpp">
+      <Filter>Source\Game\Object\Component\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonActionSceneChange.cpp">
+      <Filter>Source\Game\Object\Component\UI\ButtonActions</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonAction.cpp">
+      <Filter>Source\Game\Object\Component\UI\ButtonActions</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonActionQuit.cpp">
+      <Filter>Source\Game\Object\Component\UI\ButtonActions</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Core.h">
+      <Filter>Header\System\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="RTTI.h">
+      <Filter>Header\System\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Header\System\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine.h">
+      <Filter>Header\System\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="AssetManager.h">
+      <Filter>Header\System\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="FileSystem.h">
+      <Filter>Header\System\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectManager.h">
+      <Filter>Header\System\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Header\System\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderSystem.h">
+      <Filter>Header\System\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Header\System\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Asset.h">
+      <Filter>Header\System\Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureAsset.h">
+      <Filter>Header\System\Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml2.h">
+      <Filter>Header\System\Support</Filter>
+    </ClInclude>
+    <ClInclude Include="IRenderable.h">
+      <Filter>Header\System\Support</Filter>
+    </ClInclude>
+    <ClInclude Include="ISystem.h">
+      <Filter>Header\System\Support</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Header\Game\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Header\Game\Object\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Header\Game\Object\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentManager.h">
+      <Filter>Header\System\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimatedSprite.h">
+      <Filter>Header\Game\Object\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>Header\Game\Object\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Header\Game\Object\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Header\Game\Object\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="UITexture.h">
+      <Filter>Header\Game\Object\Component\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIButton.h">
+      <Filter>Header\Game\Object\Component\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIElement.h">
+      <Filter>Header\Game\Object\Component\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIText.h">
+      <Filter>Header\Game\Object\Component\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonAction.h">
+      <Filter>Header\Game\Object\Component\UI\ButtonActions</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonActionQuit.h">
+      <Filter>Header\Game\Object\Component\UI\ButtonActions</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonActionSceneChange.h">
+      <Filter>Header\Game\Object\Component\UI\ButtonActions</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeRegisterRTTI.h">
+      <Filter>Header\System\Core</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{dc38c5bf-1954-4a6f-aa3a-1125a89d06d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header">
+      <UniqueIdentifier>{9bd78e59-4d97-4cf7-af2c-f00b39857bf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\System">
+      <UniqueIdentifier>{98f86092-acf9-428f-b70d-1c0c90958ad6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\Game">
+      <UniqueIdentifier>{84dbfebc-1002-494e-84b2-e1cfd74d977f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\System\Core">
+      <UniqueIdentifier>{9e71a0ae-66e7-49f0-9e58-e6f1f7f9593d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\System\Managers">
+      <UniqueIdentifier>{28f124ec-112c-4181-aada-5ced6c5d2fd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\System\Assets">
+      <UniqueIdentifier>{50aef2c9-8413-483b-802f-d40c1398e4bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\System\Support">
+      <UniqueIdentifier>{2495a8fa-ca21-4a38-989b-a1e7e04750a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\System">
+      <UniqueIdentifier>{bcf8e43a-931c-46e0-babb-491573a92bbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\System\Support">
+      <UniqueIdentifier>{08b2264a-58a4-49fc-9f70-9004f17d7f99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\System\Assets">
+      <UniqueIdentifier>{13b8be6b-cfb8-4bc6-8c68-a8d1c71c3192}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\System\Core">
+      <UniqueIdentifier>{0360f087-61e6-4846-8804-0ef6b4d2deb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\System\Managers">
+      <UniqueIdentifier>{a0e612c8-f2e7-42a4-b106-8ac045a2d00f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game">
+      <UniqueIdentifier>{0cc6385b-e1d0-4d1b-95ef-d78b542dc246}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\Game\Object">
+      <UniqueIdentifier>{7a1a7681-fb71-4166-8e8a-9f8534b9c1a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\Game\Object\Scene">
+      <UniqueIdentifier>{c96118ed-b6da-4e66-bdcc-0f82a4ff8cad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\Game\Object\GameObject">
+      <UniqueIdentifier>{9356009b-d0c1-4ad6-8753-e5d0eab3d050}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\Game\Object\Component">
+      <UniqueIdentifier>{57a1d293-4c69-41f0-9de7-35aac5d9b83f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\Game\Object\Component\UI">
+      <UniqueIdentifier>{52e24cdb-0692-4ef6-8729-920d2d6332f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\Game\Object\Component\UI\ButtonActions">
+      <UniqueIdentifier>{00a6b9d2-d450-4472-aba1-15051f9c2bc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\Object">
+      <UniqueIdentifier>{6d52e593-eb79-4797-8b08-b7dbfe67a7e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\Object\GameObject">
+      <UniqueIdentifier>{c10c495e-1a37-4afb-bf82-2db868bf8e5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\Object\Scene">
+      <UniqueIdentifier>{2f4b73aa-f437-4645-9754-d97267f11250}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\Object\Component">
+      <UniqueIdentifier>{57aab5a3-184b-4ce1-8169-a3143ef1df06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\Object\Component\UI">
+      <UniqueIdentifier>{6a8e3e66-b072-4303-b567-fc5d7a2bcab3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\Object\Component\UI\ButtonActions">
+      <UniqueIdentifier>{04f36eca-cb17-4b3b-a6c4-fe6677d66da1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Scene>
+    <GameObject name="Global">
+        <Components>
+            <Component type="LevelData" lives="3" bombPoolSize="10" />
+            <Component type="Terrain" mapfile="res/Maps/level2.tmx" />
+            <Component type="UIText" text="Score: 0 Lives: 3" size="20" position.x="0" position.y="0" priority="0">
+                <colour r="255" g="255" b="255" a="255" />
+            </Component>
+        </Components>
+    </GameObject>
+    <GameObject name="UI">
+        <Components>
+            <Component type="UIText" text="PAUSE" size="30" position.x="150" position.y="100" priority="1">
+                <colour r="255" g="255" b="255" a="255" />
+            </Component>
+            <Component type="UIButton" priority="1">
+                <text text="Return to Title" size="15" position.x="110" position.y="225" priority="1">
+                    <colour r="255" g="255" b="255" a="255" />
+                </text>
+                <texture position.x="310" position.y="215" width="300" height="300" xOrigin="0" yOrigin="0" xScale="0.1f" yScale="0.1f" asset="ButtonTexture" />
+            </Component>
+            <Component type="ButtonActionSceneChange" scene="Title" />
+            <Component type="UITexture" width="480" height="480" xOrigin="0" yOrigin="0" asset="GreyBackdrop" />
+        </Components>
+    </GameObject>
+</Scene>
