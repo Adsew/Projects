@@ -1,0 +1,1253 @@
+<GameObjectManager>
+	<Objects>
+		<GameObject name="GLOBAL">
+			<Components>
+				<LevelState />
+				<HighScoreLoader />
+				<SpawnManager>
+					<positions>
+						<position x="-12" y="-0.79" z="-33"/>
+						<position x="-46.48" y="-0.70" z="-66.44"/>
+						<position x="-9.02" y="-0.706" z="18.18"/>
+						<position x="-31.355" y="-0.706" z="14.77"/>
+						<position x="-99.66" y="-0.706" z="-15.19"/>
+						<position x="-101.67" y="-0.706" z="16.2"/>
+						<position x="-53.27" y="-0.706" z="-17.26"/>
+						<position x="-40.611" y="-0.706" z="-48.66"/>
+						<position x="-12.24" y="-0.706" z="-40.088"/>
+						<position x="8.04" y="-0.706" z="13.97"/>
+						<position x="12.75" y="-0.706" z="-42.50"/>
+					</positions>
+					<prefabs>
+						<GameObject name="PickUp1">
+							<Transform>
+								<yaw>0</yaw>
+								<pitch>0</pitch>
+								<roll>0</roll>
+								<scale>
+									<x>1</x>
+									<y>1</y>
+									<z>1</z>
+								</scale>
+							</Transform>
+							<Components>
+								<IsPickUpable icon-name="Icon-Circle-Red"/>
+								<MeshRenderer>
+									<path>Assets/Models/torus.obj</path>
+									<diffuse r="1" g="0" b="0" a="1"/>
+									<specular r="1" g="1" b="1" a="1"/>
+									<Material>
+										<shineness>32</shineness>
+									</Material>
+									<ShaderProgram>
+										<Shader name="PointLightShaderVS"></Shader>
+										<Shader name="AdvancedPTShaderFS"></Shader>
+									</ShaderProgram>
+								</MeshRenderer>
+								<Collider>
+									<width>1</width>
+									<height>3</height>
+								</Collider>
+							</Components>
+						</GameObject>
+						<GameObject name="PickUp2">
+							<Transform>
+								<yaw>0</yaw>
+								<pitch>0</pitch>
+								<roll>0</roll>
+								<scale>
+									<x>1</x>
+									<y>1</y>
+									<z>1</z>
+								</scale>
+							</Transform>
+							<Components>
+								<IsPickUpable icon-name="Icon-Circle-Green"/>
+								<MeshRenderer>
+									<path>Assets/Models/torus.obj</path>
+									<diffuse r="0" g="1" b="0" a="1"/>
+									<specular r="1" g="1" b="1" a="1"/>
+									<Material>
+										<shineness>32</shineness>
+									</Material>
+									<ShaderProgram>
+										<Shader name="PointLightShaderVS"></Shader>
+										<Shader name="AdvancedPTShaderFS"></Shader>
+									</ShaderProgram>
+								</MeshRenderer>
+								<Collider>
+									<width>1</width>
+									<height>3</height>
+								</Collider>
+							</Components>
+						</GameObject>
+						<GameObject name="PickUp3">
+							<Transform>
+								<yaw>0</yaw>
+								<pitch>0</pitch>
+								<roll>0</roll>
+								<scale>
+									<x>1</x>
+									<y>1</y>
+									<z>1</z>
+								</scale>
+							</Transform>
+							<Components>
+								<IsPickUpable icon-name="Icon-Circle-Yellow"/>
+								<MeshRenderer>
+									<path>Assets/Models/torus.obj</path>
+									<diffuse r="1" g="1" b="0" a="1"/>
+									<specular r="1" g="1" b="1" a="1"/>
+									<Material>
+										<shineness>32</shineness>
+									</Material>
+									<ShaderProgram>
+										<Shader name="PointLightShaderVS"></Shader>
+										<Shader name="AdvancedPTShaderFS"></Shader>
+									</ShaderProgram>
+								</MeshRenderer>
+								<Collider>
+									<width>1</width>
+									<height>3</height>
+								</Collider>
+							</Components>
+						</GameObject>
+						<GameObject name="PickUp4">
+							<Transform>
+								<yaw>0</yaw>
+								<pitch>0</pitch>
+								<roll>0</roll>
+								<scale>
+									<x>1</x>
+									<y>1</y>
+									<z>1</z>
+								</scale>
+							</Transform>
+							<Components>
+								<IsPickUpable icon-name="Icon-Circle-Purple"/>
+								<MeshRenderer>
+									<path>Assets/Models/torus.obj</path>
+									<diffuse r="1" g="0" b="1" a="1"/>
+									<specular r="1" g="1" b="1" a="1"/>
+									<Material>
+										<shineness>32</shineness>
+									</Material>
+									<ShaderProgram>
+										<Shader name="PointLightShaderVS"></Shader>
+										<Shader name="AdvancedPTShaderFS"></Shader>
+									</ShaderProgram>
+								</MeshRenderer>
+								<Collider>
+									<width>1</width>
+									<height>3</height>
+								</Collider>
+							</Components>
+						</GameObject>
+						<GameObject name="PickUp5">
+							<Transform>
+								<yaw>0</yaw>
+								<pitch>0</pitch>
+								<roll>0</roll>
+								<scale>
+									<x>1</x>
+									<y>1</y>
+									<z>1</z>
+								</scale>
+							</Transform>
+							<Components>
+								<IsPickUpable icon-name="Icon-Circle-Blue"/>
+								<MeshRenderer>
+									<path>Assets/Models/torus.obj</path>
+									<diffuse r="0" g="0" b="1" a="1"/>
+									<specular r="1" g="1" b="1" a="1"/>
+									<Material>
+										<shineness>32</shineness>
+									</Material>
+									<ShaderProgram>
+										<Shader name="PointLightShaderVS"></Shader>
+										<Shader name="AdvancedPTShaderFS"></Shader>
+									</ShaderProgram>
+								</MeshRenderer>
+								<Collider>
+									<width>1</width>
+									<height>3</height>
+								</Collider>
+							</Components>
+						</GameObject>
+					</prefabs>
+				</SpawnManager>
+			</Components>
+		</GameObject>
+		<GameObject name="MainCamera" camera="true">
+			<Transform>
+				<yaw>0</yaw>
+				<pitch>0</pitch>
+				<roll>0</roll>
+				<position>
+					<x>-5</x>
+					<y>1.5</y>
+					<z>0</z>
+				</position>
+				<scale>
+					<x>1</x>
+					<y>1</y>
+					<z>1</z>
+				</scale>
+			</Transform>
+			<Components>
+				<HighScoreLoader />
+				<SpotLight>
+					<ambient>
+						<x>0.2</x>
+						<y>0.2</y>
+						<z>0.2</z>
+					</ambient>
+					<diffuse>
+						<x>0.9</x>
+						<y>0.9</y>
+						<z>0.9</z>
+					</diffuse>
+					<specular>
+						<x>1.0</x>
+						<y>1.0</y>
+						<z>1.0</z>
+					</specular>
+					<constant>1.0</constant>
+					<linear>0.07</linear>
+					<quadratic>0.017</quadratic>
+					<cutoff>20</cutoff>
+					<outcutoff>25</outcutoff>
+				</SpotLight>
+				<CameraComponent>
+					<fov>45</fov>
+					<far>100</far>
+					<near>0.01</near>
+				</CameraComponent>
+				<PlayerMovement/>
+				<Collider>
+					<width>1</width>
+					<height>3</height>
+				</Collider>
+				<UIRenderer>
+					<ShaderProgram>
+						<Shader name="UIShaderVS"></Shader>
+						<Shader name="UIShaderFS"></Shader>
+					</ShaderProgram>
+					<visible>false</visible>
+					<dimensions>
+						<tl>
+							<x>-0.8f</x>
+							<y>0.5f</y>
+						</tl>
+						<bl>
+							<x>-0.8f</x>
+							<y>-0.8f</y>
+						</bl>
+						<tr>
+							<x>0.8f</x>
+							<y>0.5f</y>
+						</tr>
+						<br>
+							<x>0.8f</x>
+							<y>-0.8f</y>
+						</br>
+					</dimensions>
+				</UIRenderer>
+				<UITextRenderer>
+					<text>Name
+-----</text>
+					<position>
+						<x>-0.9f</x>
+						<y>0.0f</y>
+					</position>
+				</UITextRenderer>
+				<PlayerTyping />
+			</Components>
+		</GameObject>
+		<GameObject name="Inventory">
+			<Transform>
+				<position>
+					<x>10</x>
+					<y>440</y>
+				</position>
+			</Transform>
+			<Components>
+				<UIRenderer>
+					<ShaderProgram>
+						<Shader name="UIShaderVS"></Shader>
+						<Shader name="UIShaderFS"></Shader>
+					</ShaderProgram>
+					<visible>true</visible>
+					<dimensions>
+						<tl>
+							<x>-1.0f</x>
+							<y>1.0f</y>
+						</tl>
+						<bl>
+							<x>-1.0f</x>
+							<y>0.6f</y>
+						</bl>
+						<tr>
+							<x>1.0f</x>
+							<y>1.0f</y>
+						</tr>
+						<br>
+							<x>1.0f</x>
+							<y>0.6f</y>
+						</br>
+					</dimensions>
+				</UIRenderer>
+				<InventoryRenderer width="200" height="30" item-width="50" item-height="50" spacing="3">
+					<ShaderProgram>
+						<Shader name="InventoryShaderVS"></Shader>
+						<Shader name="InventoryShaderFS"></Shader>
+					</ShaderProgram>
+				</InventoryRenderer>
+			</Components>
+		</GameObject>
+		<GameObject name="Map">
+			<Transform>
+				<position>
+					<x>585</x>
+					<y>140</y>
+				</position>
+			</Transform>
+			<Components>
+				<MiniMap width="200" height="30" item-width="-100" item-height="100" spacing="3" texture-name="Map">
+					<ShaderProgram>
+						<Shader name="InventoryShaderVS"></Shader>
+						<Shader name="InventoryShaderFS"></Shader>
+					</ShaderProgram>
+				</MiniMap>
+			</Components>
+		</GameObject>
+		<GameObject name="UI Timer">
+			<Transform />
+			<Components>
+				<UITextRenderer>
+					<text>0</text>
+					<position>
+						<x>-1.0f</x>
+						<y>1.0f</y>
+					</position>
+					<colour>
+						<r>1.0f</r>
+						<g>1.0f</g>
+						<b>0.0f</b>
+					</colour>
+				</UITextRenderer>
+				<ScreenTimerUpdater />
+			</Components>
+		</GameObject>
+		<GameObject name="DirectionalLight">
+			<Transform>
+				<yaw>0</yaw>
+				<pitch>0</pitch>
+				<roll>0</roll>
+				<position>
+					<x>0</x>
+					<y>10</y>
+					<z>0</z>
+				</position>
+				<scale>
+					<x>0.4</x>
+					<y>0.4</y>
+					<z>0.4</z>
+				</scale>
+			</Transform>
+			<Components>
+				<DirectionalLight>
+					<ambient>
+						<x>0.005</x>
+						<y>0.005</y>
+						<z>0.005</z>
+					</ambient>
+					<diffuse>
+						<x>0.2</x>
+						<y>0.2</y>
+						<z>0.2</z>
+					</diffuse>
+					<specular>
+						<x>0.5</x>
+						<y>0.5</y>
+						<z>0.5</z>
+					</specular>
+					<direction>
+						<x>-0.2</x>
+						<y>-1.0</y>
+						<z>-0.3</z>
+					</direction>
+				</DirectionalLight>
+				<LampRenderer>
+					<path>Assets/Models/cube.obj</path>
+					<color>
+						<x>1.0</x>
+						<y>1.0</y>
+						<z>0.0</z>
+					</color>
+					<ShaderProgram>
+						<Shader name="LampShaderVS"/>
+						<Shader name="LampShaderFS"/>
+					</ShaderProgram>
+				</LampRenderer>
+			</Components>
+		</GameObject>
+		<GameObject name="LightObject1">
+			<Transform>
+				<yaw>0</yaw>
+				<pitch>0</pitch>
+				<roll>0</roll>
+				<position>
+					<x>-50</x>
+					<y>8</y>
+					<z>-5</z>
+				</position>
+				<scale>
+					<x>0.4</x>
+					<y>0.4</y>
+					<z>0.4</z>
+				</scale>
+			</Transform>
+			<Components>
+				<PointLight>
+					<ambient>
+						<x>0.0</x>
+						<y>0.0</y>
+						<z>0.0</z>
+					</ambient>
+					<diffuse>
+						<x>0.9</x>
+						<y>0.9</y>
+						<z>0.9</z>
+					</diffuse>
+					<specular>
+						<x>1.0</x>
+						<y>1.0</y>
+						<z>1.0</z>
+					</specular>
+					<constant>1.0</constant>
+					<linear>0.045</linear>
+					<quadratic>0.0075</quadratic>
+				</PointLight>
+				<LampRenderer>
+					<path>Assets/Models/cube.obj</path>
+					<color>
+						<x>1.0</x>
+						<y>1.0</y>
+						<z>0.8</z>
+					</color>
+					<ShaderProgram>
+						<Shader name="LampShaderVS"/>
+						<Shader name="LampShaderFS"/>
+					</ShaderProgram>
+				</LampRenderer>
+			</Components>
+		</GameObject>
+		<GameObject name="LightObject2">
+			<Transform>
+				<yaw>0</yaw>
+				<pitch>0</pitch>
+				<roll>0</roll>
+				<position>
+					<x>-90</x>
+					<y>8</y>
+					<z>-5</z>
+				</position>
+				<scale>
+					<x>0.4</x>
+					<y>0.4</y>
+					<z>0.4</z>
+				</scale>
+			</Transform>
+			<Components>
+				<PointLight>
+					<ambient>
+						<x>0.9</x>
+						<y>0.9</y>
+						<z>0.9</z>
+					</ambient>
+					<diffuse>
+						<x>0.0</x>
+						<y>0.0</y>
+						<z>0.0</z>
+					</diffuse>
+					<specular>
+						<x>0.0</x>
+						<y>0.0</y>
+						<z>0.0</z>
+					</specular>
+					<constant>1.0</constant>
+					<linear>0.045</linear>
+					<quadratic>0.0075</quadratic>
+				</PointLight>
+				<LampRenderer>
+					<path>Assets/Models/cube.obj</path>
+					<color>
+						<x>1.0</x>
+						<y>1.0</y>
+						<z>0.8</z>
+					</color>
+					<ShaderProgram>
+						<Shader name="LampShaderVS"/>
+						<Shader name="LampShaderFS"/>
+					</ShaderProgram>
+				</LampRenderer>
+			</Components>
+		</GameObject>
+		<GameObject name="LightObject3">
+			<Transform>
+				<yaw>0</yaw>
+				<pitch>0</pitch>
+				<roll>0</roll>
+				<position>
+					<x>-10</x>
+					<y>8</y>
+					<z>-40</z>
+				</position>
+				<scale>
+					<x>0.4</x>
+					<y>0.4</y>
+					<z>0.4</z>
+				</scale>
+			</Transform>
+			<Components>
+				<PointLight>
+					<ambient>
+						<x>0.1</x>
+						<y>0.1</y>
+						<z>0.1</z>
+					</ambient>
+					<diffuse>
+						<x>0.0</x>
+						<y>0.0</y>
+						<z>0.0</z>
+					</diffuse>
+					<specular>
+						<x>1.0</x>
+						<y>1.0-</y>
+						<z>1.0</z>
+					</specular>
+					<constant>1.0</constant>
+					<linear>0.022</linear>
+					<quadratic>0.0019</quadratic>
+				</PointLight>
+				<LampRenderer>
+					<path>Assets/Models/cube.obj</path>
+					<color>
+						<x>1.0</x>
+						<y>1.0</y>
+						<z>0.8</z>
+					</color>
+					<ShaderProgram>
+						<Shader name="LampShaderVS"/>
+						<Shader name="LampShaderFS"/>
+					</ShaderProgram>
+				</LampRenderer>
+			</Components>
+		</GameObject>
+		<GameObject name="Border.001_Cube">
+			<Components>
+				<MeshRenderer>
+					<Material>
+						<textures>
+							<TextureAsset name="BakedBorder" type="DIFFUSE"/>
+						</textures>
+						<shineness>32</shineness>
+					</Material>
+					<ShaderProgram>
+						<Shader name="PointLightShaderVS"></Shader>
+						<Shader name="AdvancedPTShaderFS"></Shader>
+					</ShaderProgram>
+				</MeshRenderer>
+			</Components>
+		</GameObject>
+		<GameObject name="Section1_Floor">
+			<Components>
+				<MeshRenderer>
+					<Material>
+						<textures>
+							<TextureAsset name="BakedGrass" type="DIFFUSE"/>
+						</textures>
+						<shineness>32</shineness>
+					</Material>
+					<ShaderProgram>
+						<Shader name="PointLightShaderVS"></Shader>
+						<Shader name="AdvancedPTShaderFS"></Shader>
+					</ShaderProgram>
+				</MeshRenderer>
+			</Components>
+		</GameObject>
+		<GameObject name="Wall_North">
+			<Components>
+				<MeshRenderer>
+					<Material>
+						<textures>
+							<TextureAsset name="BakedWall" type="DIFFUSE"/>
+						</textures>
+						<shineness>32</shineness>
+					</Material>
+					<ShaderProgram>
+						<Shader name="PointLightShaderVS"></Shader>
+						<Shader name="AdvancedPTShaderFS"></Shader>
+					</ShaderProgram>
+				</MeshRenderer>
+			</Components>
+		</GameObject>
+		<GameObject name="Table">
+			<Components>
+				<MeshRenderer>
+					<Material>
+						<textures>
+							<TextureAsset name="BakedTable" type="DIFFUSE"/>
+						</textures>
+						<shineness>32</shineness>
+					</Material>
+					<ShaderProgram>
+						<Shader name="PointLightShaderVS"></Shader>
+						<Shader name="AdvancedPTShaderFS"></Shader>
+					</ShaderProgram>
+				</MeshRenderer>
+			</Components>
+		</GameObject>
+		<GameObject name="Meme">
+			<Components>
+				<MeshRenderer>
+					<Material>
+						<textures>
+							<TextureAsset name="BakedMeme" type="DIFFUSE"/>
+						</textures>
+						<shineness>32</shineness>
+					</Material>
+					<ShaderProgram>
+						<Shader name="PointLightShaderVS"></Shader>
+						<Shader name="AdvancedPTShaderFS"></Shader>
+					</ShaderProgram>
+				</MeshRenderer>
+			</Components>
+		</GameObject>
+		<GameObject name="HouseFloor">
+			<Components>
+				<MeshRenderer>
+					<Material>
+						<textures>
+							<TextureAsset name="BakedFloor" type="DIFFUSE"/>
+						</textures>
+						<shineness>32</shineness>
+					</Material>
+					<ShaderProgram>
+						<Shader name="PointLightShaderVS"></Shader>
+						<Shader name="AdvancedPTShaderFS"></Shader>
+					</ShaderProgram>
+				</MeshRenderer>
+			</Components>
+		</GameObject>
+		<GameObject name="HouseRoof">
+			<Components>
+				<MeshRenderer>
+					<Material>
+						<textures>
+							<TextureAsset name="BakedCeiling" type="DIFFUSE"/>
+						</textures>
+						<shineness>32</shineness>
+					</Material>
+					<ShaderProgram>
+						<Shader name="PointLightShaderVS"></Shader>
+						<Shader name="AdvancedPTShaderFS"></Shader>
+					</ShaderProgram>
+				</MeshRenderer>
+			</Components>
+		</GameObject>
+		<GameObject name="Wall_East">
+			<Components>
+				<MeshRenderer>
+					<Material>
+						<textures>
+							<TextureAsset name="BakedWall" type="DIFFUSE"/>
+						</textures>
+						<shineness>32</shineness>
+					</Material>
+					<ShaderProgram>
+						<Shader name="PointLightShaderVS"></Shader>
+						<Shader name="AdvancedPTShaderFS"></Shader>
+					</ShaderProgram>
+				</MeshRenderer>
+			</Components>
+		</GameObject>
+		<GameObject name="Wall_West">
+			<Components>
+				<MeshRenderer>
+					<Material>
+						<textures>
+							<TextureAsset name="BakedWall" type="DIFFUSE"/>
+						</textures>
+						<shineness>32</shineness>
+					</Material>
+					<ShaderProgram>
+						<Shader name="PointLightShaderVS"></Shader>
+						<Shader name="AdvancedPTShaderFS"></Shader>
+					</ShaderProgram>
+				</MeshRenderer>
+			</Components>
+		</GameObject>
+		<GameObject name="Section2_Floor.001">
+			<Components>
+				<MeshRenderer>
+					<Material>
+						<textures>
+							<TextureAsset name="BakedGrass" type="DIFFUSE"/>
+						</textures>
+						<shineness>32</shineness>
+					</Material>
+					<ShaderProgram>
+						<Shader name="PointLightShaderVS"></Shader>
+						<Shader name="AdvancedPTShaderFS"></Shader>
+					</ShaderProgram>
+				</MeshRenderer>
+			</Components>
+		</GameObject>
+		<GameObject name="Tree2_1_Icosphere">
+			<Components>
+				<MeshRenderer>
+					<Material>
+						<textures>
+							<TextureAsset name="BakedTree" type="DIFFUSE"/>
+						</textures>
+						<shineness>32</shineness>
+					</Material>
+					<ShaderProgram>
+						<Shader name="PointLightShaderVS"></Shader>
+						<Shader name="AdvancedPTShaderFS"></Shader>
+					</ShaderProgram>
+				</MeshRenderer>
+			</Components>
+		</GameObject>
+		<GameObject name="Crate_Cube.002">
+			<Components>
+				<MeshRenderer>
+					<Material>
+						<textures>
+							<TextureAsset name="CubeDiffuse" type="DIFFUSE"/>
+							<TextureAsset name="CubeSpecular" type="SPECULAR"/>
+						</textures>
+						<shineness>32</shineness>
+					</Material>
+					<ShaderProgram>
+						<Shader name="PointLightShaderVS"></Shader>
+						<Shader name="AdvancedPTShaderFS"></Shader>
+					</ShaderProgram>
+				</MeshRenderer>
+			</Components>
+		</GameObject>
+		<GameObject name="Crate2_Cube.003">
+			<Components>
+				<MeshRenderer>
+					<Material>
+						<textures>
+							<TextureAsset name="CubeDiffuse" type="DIFFUSE"/>
+							<TextureAsset name="CubeSpecular" type="SPECULAR"/>
+						</textures>
+						<shineness>32</shineness>
+					</Material>
+					<ShaderProgram>
+						<Shader name="PointLightShaderVS"></Shader>
+						<Shader name="AdvancedPTShaderFS"></Shader>
+					</ShaderProgram>
+				</MeshRenderer>
+			</Components>
+		</GameObject>
+		<GameObject name="Crate2.001_Cube.004">
+			<Components>
+				<MeshRenderer>
+					<Material>
+						<textures>
+							<TextureAsset name="CubeDiffuse" type="DIFFUSE"/>
+							<TextureAsset name="CubeSpecular" type="SPECULAR"/>
+						</textures>
+						<shineness>32</shineness>
+					</Material>
+					<ShaderProgram>
+						<Shader name="PointLightShaderVS"></Shader>
+						<Shader name="AdvancedPTShaderFS"></Shader>
+					</ShaderProgram>
+				</MeshRenderer>
+			</Components>
+		</GameObject>
+		<GameObject name="Border.002_Cube.006">
+			<Components>
+				<MeshRenderer>
+					<Material>
+						<textures>
+							<TextureAsset name="BakedBorder" type="DIFFUSE"/>
+						</textures>
+						<shineness>32</shineness>
+					</Material>
+					<ShaderProgram>
+						<Shader name="PointLightShaderVS"></Shader>
+						<Shader name="AdvancedPTShaderFS"></Shader>
+					</ShaderProgram>
+				</MeshRenderer>
+			</Components>
+		</GameObject>
+		<GameObject name="Border.003_Cube.007">
+			<Components>
+				<MeshRenderer>
+					<Material>
+						<textures>
+							<TextureAsset name="BakedBorder" type="DIFFUSE"/>
+						</textures>
+						<shineness>32</shineness>
+					</Material>
+					<ShaderProgram>
+						<Shader name="PointLightShaderVS"></Shader>
+						<Shader name="AdvancedPTShaderFS"></Shader>
+					</ShaderProgram>
+				</MeshRenderer>
+			</Components>
+		</GameObject>
+		<GameObject name="Border.004_Cube.008">
+			<Components>
+				<MeshRenderer>
+					<Material>
+						<textures>
+							<TextureAsset name="BakedBorder" type="DIFFUSE"/>
+						</textures>
+						<shineness>32</shineness>
+					</Material>
+					<ShaderProgram>
+						<Shader name="PointLightShaderVS"></Shader>
+						<Shader name="AdvancedPTShaderFS"></Shader>
+					</ShaderProgram>
+				</MeshRenderer>
+			</Components>
+		</GameObject>
+		<GameObject name="Border.005_Cube.009">
+			<Components>
+				<MeshRenderer>
+					<Material>
+						<textures>
+							<TextureAsset name="BakedBorder" type="DIFFUSE"/>
+						</textures>
+						<shineness>32</shineness>
+					</Material>
+					<ShaderProgram>
+						<Shader name="PointLightShaderVS"></Shader>
+						<Shader name="AdvancedPTShaderFS"></Shader>
+					</ShaderProgram>
+				</MeshRenderer>
+			</Components>
+		</GameObject>
+		<GameObject name="Section5_Floor.002">
+			<Components>
+				<MeshRenderer>
+					<Material>
+						<textures>
+							<TextureAsset name="BakedGrass" type="DIFFUSE"/>
+						</textures>
+						<shineness>32</shineness>
+					</Material>
+					<ShaderProgram>
+						<Shader name="PointLightShaderVS"></Shader>
+						<Shader name="AdvancedPTShaderFS"></Shader>
+					</ShaderProgram>
+				</MeshRenderer>
+			</Components>
+		</GameObject>
+		<GameObject name="Tree5_2_Icosphere.015">
+			<Components>
+				<MeshRenderer>
+					<Material>
+						<textures>
+							<TextureAsset name="BakedTree" type="DIFFUSE"/>
+						</textures>
+						<shineness>32</shineness>
+					</Material>
+					<ShaderProgram>
+						<Shader name="PointLightShaderVS"></Shader>
+						<Shader name="AdvancedPTShaderFS"></Shader>
+					</ShaderProgram>
+				</MeshRenderer>
+			</Components>
+		</GameObject>
+		<GameObject name="Tree5_1_Icosphere.014">
+			<Components>
+				<MeshRenderer>
+					<Material>
+						<textures>
+							<TextureAsset name="BakedTree" type="DIFFUSE"/>
+						</textures>
+						<shineness>32</shineness>
+					</Material>
+					<ShaderProgram>
+						<Shader name="PointLightShaderVS"></Shader>
+						<Shader name="AdvancedPTShaderFS"></Shader>
+					</ShaderProgram>
+				</MeshRenderer>
+			</Components>
+		</GameObject>
+		<GameObject name="Crate_Cube.002">
+			<Components>
+				<MeshRenderer>
+					<Material>
+						<textures>
+							<TextureAsset name="CubeDiffuse" type="DIFFUSE"/>
+							<TextureAsset name="CubeSpecular" type="SPECULAR"/>
+						</textures>
+						<shineness>32</shineness>
+					</Material>
+					<ShaderProgram>
+						<Shader name="PointLightShaderVS"></Shader>
+						<Shader name="AdvancedPTShaderFS"></Shader>
+					</ShaderProgram>
+				</MeshRenderer>
+			</Components>
+		</GameObject>
+		<GameObject name="Border5_1_Cube.015">
+			<Components>
+				<MeshRenderer>
+					<Material>
+						<textures>
+							<TextureAsset name="BakedBorder" type="DIFFUSE"/>
+						</textures>
+						<shineness>32</shineness>
+					</Material>
+					<ShaderProgram>
+						<Shader name="PointLightShaderVS"></Shader>
+						<Shader name="AdvancedPTShaderFS"></Shader>
+					</ShaderProgram>
+				</MeshRenderer>
+			</Components>
+		</GameObject>
+		<GameObject name="Border5_2_Cube.014">
+			<Components>
+				<MeshRenderer>
+					<Material>
+						<textures>
+							<TextureAsset name="BakedBorder" type="DIFFUSE"/>
+						</textures>
+						<shineness>32</shineness>
+					</Material>
+					<ShaderProgram>
+						<Shader name="PointLightShaderVS"></Shader>
+						<Shader name="AdvancedPTShaderFS"></Shader>
+					</ShaderProgram>
+				</MeshRenderer>
+			</Components>
+		</GameObject>
+		<GameObject name="Border5_3_Cube.013">
+			<Components>
+				<MeshRenderer>
+					<Material>
+						<textures>
+							<TextureAsset name="BakedBorder" type="DIFFUSE"/>
+						</textures>
+						<shineness>32</shineness>
+					</Material>
+					<ShaderProgram>
+						<Shader name="PointLightShaderVS"></Shader>
+						<Shader name="AdvancedPTShaderFS"></Shader>
+					</ShaderProgram>
+				</MeshRenderer>
+			</Components>
+		</GameObject>
+		<GameObject name="Section3_Floor.003">
+			<Components>
+				<MeshRenderer>
+					<Material>
+						<textures>
+							<TextureAsset name="BakedGrass" type="DIFFUSE"/>
+						</textures>
+						<shineness>32</shineness>
+					</Material>
+					<ShaderProgram>
+						<Shader name="PointLightShaderVS"></Shader>
+						<Shader name="AdvancedPTShaderFS"></Shader>
+					</ShaderProgram>
+				</MeshRenderer>
+			</Components>
+		</GameObject>
+		<GameObject name="Tree3_2_Icosphere.004">
+			<Components>
+				<MeshRenderer>
+					<Material>
+						<textures>
+							<TextureAsset name="BakedTree" type="DIFFUSE"/>
+						</textures>
+						<shineness>32</shineness>
+					</Material>
+					<ShaderProgram>
+						<Shader name="PointLightShaderVS"></Shader>
+						<Shader name="AdvancedPTShaderFS"></Shader>
+					</ShaderProgram>
+				</MeshRenderer>
+			</Components>
+		</GameObject>
+		<GameObject name="Tree3_1_Icosphere.003">
+			<Components>
+				<MeshRenderer>
+					<Material>
+						<textures>
+							<TextureAsset name="BakedTree" type="DIFFUSE"/>
+						</textures>
+						<shineness>32</shineness>
+					</Material>
+					<ShaderProgram>
+						<Shader name="PointLightShaderVS"></Shader>
+						<Shader name="AdvancedPTShaderFS"></Shader>
+					</ShaderProgram>
+				</MeshRenderer>
+			</Components>
+		</GameObject>
+		<GameObject name="Border.006_Cube.010">
+			<Components>
+				<MeshRenderer>
+					<Material>
+						<textures>
+							<TextureAsset name="BakedBorder" type="DIFFUSE"/>
+						</textures>
+						<shineness>32</shineness>
+					</Material>
+					<ShaderProgram>
+						<Shader name="PointLightShaderVS"></Shader>
+						<Shader name="AdvancedPTShaderFS"></Shader>
+					</ShaderProgram>
+				</MeshRenderer>
+			</Components>
+		</GameObject>
+		<GameObject name="Border.007_Cube.011">
+			<Components>
+				<MeshRenderer>
+					<Material>
+						<textures>
+							<TextureAsset name="BakedBorder" type="DIFFUSE"/>
+						</textures>
+						<shineness>32</shineness>
+					</Material>
+					<ShaderProgram>
+						<Shader name="PointLightShaderVS"></Shader>
+						<Shader name="AdvancedPTShaderFS"></Shader>
+					</ShaderProgram>
+				</MeshRenderer>
+			</Components>
+		</GameObject>
+		<GameObject name="Border_Cube.012">
+			<Components>
+				<MeshRenderer>
+					<Material>
+						<textures>
+							<TextureAsset name="BakedBorder" type="DIFFUSE"/>
+						</textures>
+						<shineness>32</shineness>
+					</Material>
+					<ShaderProgram>
+						<Shader name="PointLightShaderVS"></Shader>
+						<Shader name="AdvancedPTShaderFS"></Shader>
+					</ShaderProgram>
+				</MeshRenderer>
+			</Components>
+		</GameObject>
+		<GameObject name="Section4_Floor.004">
+			<Components>
+				<MeshRenderer>
+					<Material>
+						<textures>
+							<TextureAsset name="BakedGrass" type="DIFFUSE"/>
+						</textures>
+						<shineness>32</shineness>
+					</Material>
+					<ShaderProgram>
+						<Shader name="PointLightShaderVS"></Shader>
+						<Shader name="AdvancedPTShaderFS"></Shader>
+					</ShaderProgram>
+				</MeshRenderer>
+			</Components>
+		</GameObject>
+		<GameObject name="Tree4_1_Icosphere.012">
+			<Components>
+				<MeshRenderer>
+					<Material>
+						<textures>
+							<TextureAsset name="BakedTree" type="DIFFUSE"/>
+						</textures>
+						<shineness>32</shineness>
+					</Material>
+					<ShaderProgram>
+						<Shader name="PointLightShaderVS"></Shader>
+						<Shader name="AdvancedPTShaderFS"></Shader>
+					</ShaderProgram>
+				</MeshRenderer>
+			</Components>
+		</GameObject>
+		<GameObject name="Tree4_2_Icosphere.013">
+			<Components>
+				<MeshRenderer>
+					<Material>
+						<textures>
+							<TextureAsset name="BakedTree" type="DIFFUSE"/>
+						</textures>
+						<shineness>32</shineness>
+					</Material>
+					<ShaderProgram>
+						<Shader name="PointLightShaderVS"></Shader>
+						<Shader name="AdvancedPTShaderFS"></Shader>
+					</ShaderProgram>
+				</MeshRenderer>
+			</Components>
+		</GameObject>
+		<GameObject name="Crate.001_Cube.018">
+			<Components>
+				<MeshRenderer>
+					<Material>
+						<textures>
+							<TextureAsset name="CubeDiffuse" type="DIFFUSE"/>
+							<TextureAsset name="CubeSpecular" type="SPECULAR"/>
+						</textures>
+						<shineness>32</shineness>
+					</Material>
+					<ShaderProgram>
+						<Shader name="PointLightShaderVS"></Shader>
+						<Shader name="AdvancedPTShaderFS"></Shader>
+					</ShaderProgram>
+				</MeshRenderer>
+			</Components>
+		</GameObject>
+		<GameObject name="Crate2.003_Cube.017">
+			<Components>
+				<MeshRenderer>
+					<Material>
+						<textures>
+							<TextureAsset name="CubeDiffuse" type="DIFFUSE"/>
+							<TextureAsset name="CubeSpecular" type="SPECULAR"/>
+						</textures>
+						<shineness>32</shineness>
+					</Material>
+					<ShaderProgram>
+						<Shader name="PointLightShaderVS"></Shader>
+						<Shader name="AdvancedPTShaderFS"></Shader>
+					</ShaderProgram>
+				</MeshRenderer>
+			</Components>
+		</GameObject>
+		<GameObject name="Crate2.002_Cube.016">
+			<Components>
+				<MeshRenderer>
+					<Material>
+						<textures>
+							<TextureAsset name="CubeDiffuse" type="DIFFUSE"/>
+							<TextureAsset name="CubeSpecular" type="SPECULAR"/>
+						</textures>
+						<shineness>32</shineness>
+					</Material>
+					<ShaderProgram>
+						<Shader name="PointLightShaderVS"></Shader>
+						<Shader name="AdvancedPTShaderFS"></Shader>
+					</ShaderProgram>
+				</MeshRenderer>
+			</Components>
+		</GameObject>
+		<GameObject name="Crate.002_Cube.021">
+			<Components>
+				<MeshRenderer>
+					<Material>
+						<textures>
+							<TextureAsset name="CubeDiffuse" type="DIFFUSE"/>
+							<TextureAsset name="CubeSpecular" type="SPECULAR"/>
+						</textures>
+						<shineness>32</shineness>
+					</Material>
+					<ShaderProgram>
+						<Shader name="PointLightShaderVS"></Shader>
+						<Shader name="AdvancedPTShaderFS"></Shader>
+					</ShaderProgram>
+				</MeshRenderer>
+			</Components>
+		</GameObject>
+		<GameObject name="Crate2.005_Cube.020">
+			<Components>
+				<MeshRenderer>
+					<Material>
+						<textures>
+							<TextureAsset name="CubeDiffuse" type="DIFFUSE"/>
+							<TextureAsset name="CubeSpecular" type="SPECULAR"/>
+						</textures>
+						<shineness>32</shineness>
+					</Material>
+					<ShaderProgram>
+						<Shader name="PointLightShaderVS"></Shader>
+						<Shader name="AdvancedPTShaderFS"></Shader>
+					</ShaderProgram>
+				</MeshRenderer>
+			</Components>
+		</GameObject>
+		<GameObject name="Crate2.004_Cube.019">
+			<Components>
+				<MeshRenderer>
+					<Material>
+						<textures>
+							<TextureAsset name="CubeDiffuse" type="DIFFUSE"/>
+							<TextureAsset name="CubeSpecular" type="SPECULAR"/>
+						</textures>
+						<shineness>32</shineness>
+					</Material>
+					<ShaderProgram>
+						<Shader name="PointLightShaderVS"></Shader>
+						<Shader name="AdvancedPTShaderFS"></Shader>
+					</ShaderProgram>
+				</MeshRenderer>
+			</Components>
+		</GameObject>
+		<GameObject name="Crate.003_Cube.024">
+			<Components>
+				<MeshRenderer>
+					<Material>
+						<textures>
+							<TextureAsset name="CubeDiffuse" type="DIFFUSE"/>
+							<TextureAsset name="CubeSpecular" type="SPECULAR"/>
+						</textures>
+						<shineness>32</shineness>
+					</Material>
+					<ShaderProgram>
+						<Shader name="PointLightShaderVS"></Shader>
+						<Shader name="AdvancedPTShaderFS"></Shader>
+					</ShaderProgram>
+				</MeshRenderer>
+			</Components>
+		</GameObject>
+		<GameObject name="Crate2.007_Cube.023">
+			<Components>
+				<MeshRenderer>
+					<Material>
+						<textures>
+							<TextureAsset name="CubeDiffuse" type="DIFFUSE"/>
+							<TextureAsset name="CubeSpecular" type="SPECULAR"/>
+						</textures>
+						<shineness>32</shineness>
+					</Material>
+					<ShaderProgram>
+						<Shader name="PointLightShaderVS"></Shader>
+						<Shader name="AdvancedPTShaderFS"></Shader>
+					</ShaderProgram>
+				</MeshRenderer>
+			</Components>
+		</GameObject>
+		<GameObject name="Crate2.006_Cube.022">
+			<Components>
+				<MeshRenderer>
+					<Material>
+						<textures>
+							<TextureAsset name="CubeDiffuse" type="DIFFUSE"/>
+							<TextureAsset name="CubeSpecular" type="SPECULAR"/>
+						</textures>
+						<shineness>32</shineness>
+					</Material>
+					<ShaderProgram>
+						<Shader name="PointLightShaderVS"></Shader>
+						<Shader name="AdvancedPTShaderFS"></Shader>
+					</ShaderProgram>
+				</MeshRenderer>
+			</Components>
+		</GameObject>
+	</Objects>
+	<Renderers>
+		<Renderer path="Assets/Models/full-scene.obj"/>
+	</Renderers>
+</GameObjectManager>

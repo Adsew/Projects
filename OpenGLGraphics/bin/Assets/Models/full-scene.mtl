@@ -1,0 +1,584 @@
+# Blender MTL File: 'graphics-scene.blend'
+# Material Count: 54
+
+newmtl Brown
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.066811 0.032105 0.002462
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\Workspace-warnemat-School\GDAP\2017\GroupProjects\GDAP_F02\Project\bin\Assets\Textures\BakedTree1.png
+
+newmtl Brown.002
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.066811 0.032105 0.002462
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Brown.003
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.066811 0.032105 0.002462
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Brown.011
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.066811 0.032105 0.002462
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Brown.012
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.066811 0.032105 0.002462
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Brown.013
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.066811 0.032105 0.002462
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Brown.014
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.066811 0.032105 0.002462
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl CatMeme
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd D:\Workspace-warnemat-School\GDAP\2017\GroupProjects\GDAP_F02\Project\bin\Assets\Textures\MemeBake.png
+
+newmtl Ceiling
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\Workspace-warnemat-School\GDAP\2017\GroupProjects\GDAP_F02\Project\bin\Assets\Textures\BakedCeiling.png
+
+newmtl DarkBoarder
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd D:\Workspace-warnemat-School\GDAP\2017\GroupProjects\GDAP_F02\Project\bin\Assets\Textures\MemeBake.png
+
+newmtl Floor
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd D:\Workspace-warnemat-School\GDAP\2017\GroupProjects\GDAP_F02\Project\bin\Assets\Textures\BakedFloor.png
+
+newmtl Grass
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd -s 20.000000 20.000000 1.000000 D:\\Workspace-warnemat-School\\GDAP\\2017\\GroupProjects\\GDAP_F02\\Project\\bin\\Assets\\Textures\\grass2.jpg
+
+newmtl Grass.001
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd -s 20.000000 20.000000 1.000000 D:\\Workspace-warnemat-School\\GDAP\\2017\\GroupProjects\\GDAP_F02\\Project\\bin\\Assets\\Textures\\grass2.jpg
+
+newmtl Grass.001_cube_image.003
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd -s 20.000000 20.000000 1.000000 D:\\Workspace-warnemat-School\\GDAP\\2017\\GroupProjects\\GDAP_F02\\Project\\bin\\Assets\\Textures\\grass2.jpg
+
+newmtl Grass.002
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd -s 20.000000 20.000000 1.000000 D:\\Workspace-warnemat-School\\GDAP\\2017\\GroupProjects\\GDAP_F02\\Project\\bin\\Assets\\Textures\\grass2.jpg
+
+newmtl Grass.002_cube_image.004
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd -s 20.000000 20.000000 1.000000 D:\\Workspace-warnemat-School\\GDAP\\2017\\GroupProjects\\GDAP_F02\\Project\\bin\\Assets\\Textures\\grass2.jpg
+
+newmtl Grass_GrassBake
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\Workspace-warnemat-School\GDAP\2017\GroupProjects\GDAP_F02\Project\bin\Assets\Textures\GrassBake.png
+
+newmtl GravelGround
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd -s 20.000000 20.000000 1.000000 D:\\Workspace-warnemat-School\\GDAP\\2017\\GroupProjects\\GDAP_F02\\Project\\bin\\Assets\\Textures\\cobblestone.jpg
+
+newmtl GravelGround.001
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd -s 20.000000 20.000000 1.000000 D:\\Workspace-warnemat-School\\GDAP\\2017\\GroupProjects\\GDAP_F02\\Project\\bin\\Assets\\Textures\\cobblestone.jpg
+
+newmtl GravelGround.001_cube_image.011
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd -s 20.000000 20.000000 1.000000 D:\\Workspace-warnemat-School\\GDAP\\2017\\GroupProjects\\GDAP_F02\\Project\\bin\\Assets\\Textures\\cobblestone.jpg
+
+newmtl GravelGround_cube_image.010
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd -s 20.000000 20.000000 1.000000 D:\\Workspace-warnemat-School\\GDAP\\2017\\GroupProjects\\GDAP_F02\\Project\\bin\\Assets\\Textures\\cobblestone.jpg
+
+newmtl Green
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.007885 0.050963 0.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd D:\Workspace-warnemat-School\GDAP\2017\GroupProjects\GDAP_F02\Project\bin\Assets\Textures\BakedTree1.png
+
+newmtl Green.002
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.007885 0.050963 0.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Green.003
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.007885 0.050963 0.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Green.011
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.007885 0.050963 0.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Green.012
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.007885 0.050963 0.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Green.013
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.007885 0.050963 0.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Green.014
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.007885 0.050963 0.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl TableLegs
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd D:\Workspace-warnemat-School\GDAP\2017\GroupProjects\GDAP_F02\Project\bin\Assets\Textures\table.png
+
+newmtl TableSides
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd D:\Workspace-warnemat-School\GDAP\2017\GroupProjects\GDAP_F02\Project\bin\Assets\Textures\table.png
+
+newmtl TableTop
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd D:\Workspace-warnemat-School\GDAP\2017\GroupProjects\GDAP_F02\Project\bin\Assets\Textures\table.png
+
+newmtl Wall
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd -s 5.000000 5.000000 1.000000 D:\\Workspace-warnemat-School\\GDAP\\2017\\GroupProjects\\GDAP_F02\\Project\\bin\\Assets\\Textures\\brick-wall.jpg
+
+newmtl Wall.001
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd -s 5.000000 5.000000 1.000000 D:\\Workspace-warnemat-School\\GDAP\\2017\\GroupProjects\\GDAP_F02\\Project\\bin\\Assets\\Textures\\brick-wall.jpg
+
+newmtl Wall.002
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd -s 5.000000 5.000000 1.000000 D:\\Workspace-warnemat-School\\GDAP\\2017\\GroupProjects\\GDAP_F02\\Project\\bin\\Assets\\Textures\\brick-wall.jpg
+
+newmtl Wall.003
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd -s 5.000000 5.000000 1.000000 D:\\Workspace-warnemat-School\\GDAP\\2017\\GroupProjects\\GDAP_F02\\Project\\bin\\Assets\\Textures\\brick-wall.jpg
+
+newmtl Wall.004
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd -s 5.000000 5.000000 1.000000 D:\\Workspace-warnemat-School\\GDAP\\2017\\GroupProjects\\GDAP_F02\\Project\\bin\\Assets\\Textures\\brick-wall.jpg
+
+newmtl Wall.005
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd -s 5.000000 5.000000 1.000000 D:\\Workspace-warnemat-School\\GDAP\\2017\\GroupProjects\\GDAP_F02\\Project\\bin\\Assets\\Textures\\brick-wall.jpg
+
+newmtl Wall.006
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd -s 5.000000 5.000000 1.000000 D:\\Workspace-warnemat-School\\GDAP\\2017\\GroupProjects\\GDAP_F02\\Project\\bin\\Assets\\Textures\\brick-wall.jpg
+
+newmtl Wall.007
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd -s 5.000000 5.000000 1.000000 D:\\Workspace-warnemat-School\\GDAP\\2017\\GroupProjects\\GDAP_F02\\Project\\bin\\Assets\\Textures\\brick-wall.jpg
+
+newmtl Wall.008
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd -s 5.000000 5.000000 1.000000 D:\\Workspace-warnemat-School\\GDAP\\2017\\GroupProjects\\GDAP_F02\\Project\\bin\\Assets\\Textures\\brick-wall.jpg
+
+newmtl Wall.009
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd -s 5.000000 5.000000 1.000000 D:\\Workspace-warnemat-School\\GDAP\\2017\\GroupProjects\\GDAP_F02\\Project\\bin\\Assets\\Textures\\brick-wall.jpg
+
+newmtl Wall.010
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd -s 5.000000 5.000000 1.000000 D:\\Workspace-warnemat-School\\GDAP\\2017\\GroupProjects\\GDAP_F02\\Project\\bin\\Assets\\Textures\\brick-wall.jpg
+
+newmtl WoodCrate
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd D:\\Workspace-warnemat-School\\GDAP\\2017\\GroupProjects\\GDAP_F02\\Project\\bin\\Assets\\Textures\\cube_diffuse.png
+
+newmtl WoodCrate.001
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd D:\\Workspace-warnemat-School\\GDAP\\2017\\GroupProjects\\GDAP_F02\\Project\\bin\\Assets\\Textures\\cube_diffuse.png
+
+newmtl WoodCrate.002
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd D:\\Workspace-warnemat-School\\GDAP\\2017\\GroupProjects\\GDAP_F02\\Project\\bin\\Assets\\Textures\\cube_diffuse.png
+
+newmtl WoodCrate.003
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd D:\\Workspace-warnemat-School\\GDAP\\2017\\GroupProjects\\GDAP_F02\\Project\\bin\\Assets\\Textures\\cube_diffuse.png
+
+newmtl WoodCrate.004
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd D:\\Workspace-warnemat-School\\GDAP\\2017\\GroupProjects\\GDAP_F02\\Project\\bin\\Assets\\Textures\\cube_diffuse.png
+
+newmtl WoodCrate.005
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd D:\\Workspace-warnemat-School\\GDAP\\2017\\GroupProjects\\GDAP_F02\\Project\\bin\\Assets\\Textures\\cube_diffuse.png
+
+newmtl WoodCrate.006
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd D:\\Workspace-warnemat-School\\GDAP\\2017\\GroupProjects\\GDAP_F02\\Project\\bin\\Assets\\Textures\\cube_diffuse.png
+
+newmtl WoodCrate.007
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd D:\\Workspace-warnemat-School\\GDAP\\2017\\GroupProjects\\GDAP_F02\\Project\\bin\\Assets\\Textures\\cube_diffuse.png
+
+newmtl WoodCrate.008
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd D:\\Workspace-warnemat-School\\GDAP\\2017\\GroupProjects\\GDAP_F02\\Project\\bin\\Assets\\Textures\\cube_diffuse.png
+
+newmtl WoodCrate.009
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd D:\\Workspace-warnemat-School\\GDAP\\2017\\GroupProjects\\GDAP_F02\\Project\\bin\\Assets\\Textures\\cube_diffuse.png
+
+newmtl WoodCrate.010
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd D:\\Workspace-warnemat-School\\GDAP\\2017\\GroupProjects\\GDAP_F02\\Project\\bin\\Assets\\Textures\\cube_diffuse.png
+
+newmtl WoodCrate.011
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd D:\\Workspace-warnemat-School\\GDAP\\2017\\GroupProjects\\GDAP_F02\\Project\\bin\\Assets\\Textures\\cube_diffuse.png

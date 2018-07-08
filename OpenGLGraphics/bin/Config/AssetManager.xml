@@ -1,0 +1,100 @@
+<AssetManager>
+	<Assets>
+		<!-- Shaders -->
+		<Shader name="AdvancedPTShaderFS">
+			<path>Assets/Shaders/pt_a_shader.fs</path>
+			<type>GL_FRAGMENT_SHADER</type>
+		</Shader>
+		<Shader name="PointLightShaderVS">
+			<path>Assets/Shaders/phong_shader.vs</path>
+			<type>GL_VERTEX_SHADER</type>
+		</Shader>
+		<Shader name="LampShaderVS">
+			<path>Assets/Shaders/lamp_shader.vs</path>
+			<type>GL_VERTEX_SHADER</type>
+		</Shader>
+		<Shader name="LampShaderFS">
+			<path>Assets/Shaders/lamp_shader.fs</path>
+			<type>GL_FRAGMENT_SHADER</type>
+		</Shader>
+		<Shader name="UIShaderVS">
+			<path>Assets/Shaders/simple_shader.vs</path>
+			<type>GL_VERTEX_SHADER</type>
+		</Shader>
+		<Shader name="UIShaderFS">
+			<path>Assets/Shaders/simple_shader.fs</path>
+			<type>GL_FRAGMENT_SHADER</type>
+		</Shader>
+		<Shader name="UITextureShaderVS">
+			<path>Assets/Shaders/ui_texture_shader.vs</path>
+			<type>GL_VERTEX_SHADER</type>
+		</Shader>
+		<Shader name="UITextureShaderFS">
+			<path>Assets/Shaders/ui_texture_shader.fs</path>
+			<type>GL_FRAGMENT_SHADER</type>
+		</Shader>
+		<Shader name="InventoryShaderVS">
+			<path>Assets/Shaders/inventory_shader.vs</path>
+			<type>GL_VERTEX_SHADER</type>
+		</Shader>
+		<Shader name="InventoryShaderFS">
+			<path>Assets/Shaders/inventory_shader.fs</path>
+			<type>GL_FRAGMENT_SHADER</type>
+		</Shader>
+		<!-- Textures -->
+		<TextureAsset name="DefaultImage" unit="0">
+			<path>Assets/Textures/default-pattern.png</path>
+		</TextureAsset>
+		<TextureAsset name="CubeDiffuse" unit="0">
+			<path>Assets/Textures/cube_diffuse.png</path>
+		</TextureAsset>
+		<TextureAsset name="CubeSpecular" unit="1">
+			<path>Assets/Textures/cube_specular.png</path>
+		</TextureAsset>
+		<TextureAsset name="BakedTree" unit="0">
+			<path>Assets/Textures/BakedTree1.png</path>
+		</TextureAsset>
+		<TextureAsset name="BakedCeiling" unit="0">
+			<path>Assets/Textures/BakedCeiling.png</path>
+		</TextureAsset>
+		<TextureAsset name="BakedFloor" unit="0">
+			<path>Assets/Textures/BakedFloor.png</path>
+		</TextureAsset>
+		<TextureAsset name="BakedTable" unit="0">
+			<path>Assets/Textures/table.png</path>
+		</TextureAsset>
+		<TextureAsset name="BakedBorder" unit="0">
+			<path>Assets/Textures/BakedBorder.png</path>
+		</TextureAsset>
+		<TextureAsset name="BakedMeme" unit="0">
+			<path>Assets/Textures/MemeBake.png</path>
+		</TextureAsset>
+		<TextureAsset name="BakedWall" unit="0">
+			<path>Assets/Textures/BakedWall.png</path>
+		</TextureAsset>
+		<TextureAsset name="ASCIISheet">
+			<path>Assets/Textures/ASCII_16x16.png</path>
+		</TextureAsset>
+		<TextureAsset name="BakedGrass" unit="0">
+			<path>Assets/Textures/GrassBake.png</path>
+		</TextureAsset>
+		<TextureAsset name="Icon-Circle-Blue" unit="0">
+			<path>Assets/Textures/blue circle.png</path>
+		</TextureAsset>
+		<TextureAsset name="Icon-Circle-Green" unit="0">
+			<path>Assets/Textures/green circle.png</path>
+		</TextureAsset>
+		<TextureAsset name="Icon-Circle-Purple" unit="0">
+			<path>Assets/Textures/purple circle.png</path>
+		</TextureAsset>
+		<TextureAsset name="Icon-Circle-Red" unit="0">
+			<path>Assets/Textures/red circle.png</path>
+		</TextureAsset>
+		<TextureAsset name="Icon-Circle-Yellow" unit="0">
+			<path>Assets/Textures/yellow circle.png</path>
+		</TextureAsset>
+		<TextureAsset name="Map" unit="0">
+			<path>Assets/Textures/map.png</path>
+		</TextureAsset>
+	</Assets>
+</AssetManager>

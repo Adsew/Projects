@@ -1,0 +1,8 @@
+<RenderManager>
+	<Window>
+		<width>680</width>
+		<height>480</height>
+		<title>Graphics Assignment 2</title>
+		<fullscreen>false</fullscreen>
+	</Window>
+</RenderManager>
