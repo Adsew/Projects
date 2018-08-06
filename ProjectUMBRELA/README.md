@@ -4,6 +4,6 @@ Project UMBRELA is a 2.5D platformer with some action combat. The game features 
 
 This current version is the beta v1.0.
 
-The game is currently being developed in a small studio of six, including myself.
+The game is currently being developed in a small studio of six, including myself, as the capstone project for our post-graduate programs.
 
 Feel free to experience all the hard work we have done in a four month period!
