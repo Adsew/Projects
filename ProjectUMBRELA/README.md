@@ -7,3 +7,5 @@ This current version is the gold master vertical slice. Controller is required.
 The game was developed in a small studio of six, including myself, as the capstone project for our post-graduate programs.
 
 Feel free to experience all the hard work we have done in a four month period!
+
+I also maintained the active twitter account, @SunShadeStudios, throughout development, where we posted progress, images, and suggestions.
