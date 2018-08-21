@@ -9,3 +9,5 @@ The game was developed in a small studio of six, including myself, as the capsto
 Feel free to experience all the hard work we have done in a four month period!
 
 I also maintained the active twitter account, @SunShadeStudios, throughout development, where we posted progress, images, and suggestions.
+
+You can find the game published to itch.io at https://sunshadestudios.itch.io/project-umbrela
