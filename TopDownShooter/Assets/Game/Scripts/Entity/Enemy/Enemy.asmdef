@@ -1,0 +1,17 @@
+{
+    "name": "Enemy",
+    "references": [
+        "Entity",
+        "Player",
+        "Utility",
+        "EntityProperty",
+        "Equipment",
+        "Weapons",
+        "GameState",
+        "Spawning"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}

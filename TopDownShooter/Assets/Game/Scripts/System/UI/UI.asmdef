@@ -1,0 +1,10 @@
+{
+    "name": "UI",
+    "references": [
+        "Utility"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}

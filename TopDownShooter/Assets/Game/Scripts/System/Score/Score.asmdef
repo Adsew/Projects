@@ -1,0 +1,11 @@
+{
+    "name": "Score",
+    "references": [
+        "GameState",
+        "Utility"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}

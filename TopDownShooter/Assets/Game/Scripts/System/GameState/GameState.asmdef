@@ -1,0 +1,11 @@
+{
+    "name": "GameState",
+    "references": [
+        "Utility",
+        "UI"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}

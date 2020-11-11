@@ -1,0 +1,12 @@
+{
+    "name": "Armour",
+    "references": [
+        "Equipment",
+        "Entity",
+        "EntityProperty"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}

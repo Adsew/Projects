@@ -1,0 +1,13 @@
+{
+    "name": "Spawning",
+    "references": [
+        "GameState",
+        "EntityProperty",
+        "Utility",
+        "ObjectPool"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}

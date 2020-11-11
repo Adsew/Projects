@@ -1,0 +1,13 @@
+{
+    "name": "Arena",
+    "references": [
+        "GameState",
+        "Utility",
+        "Player",
+        "EntityProperty"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}

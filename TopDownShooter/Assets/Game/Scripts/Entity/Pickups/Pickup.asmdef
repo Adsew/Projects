@@ -1,0 +1,11 @@
+{
+    "name": "Pickup",
+    "references": [
+        "Entity",
+        "EntityProperty"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}

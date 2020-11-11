@@ -1,0 +1,13 @@
+{
+    "name": "Weapons",
+    "references": [
+        "Equipment",
+        "Entity",
+        "ObjectPool",
+        "Utility"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}

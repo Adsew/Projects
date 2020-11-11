@@ -1,0 +1,16 @@
+{
+    "name": "Player",
+    "references": [
+        "Utility",
+        "EntityProperty",
+        "Entity",
+        "GameState",
+        "Equipment",
+        "Weapons",
+        "Score"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}
